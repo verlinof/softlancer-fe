@@ -34,7 +34,6 @@ const Login = () => {
 
   return (
     <div>
-      {/* Perhatikan bahwa Anda tidak perlu menggunakan tanda kurung () saat memanggil fungsi onSuccess dan onFailure */}
       <GoogleLogin onSuccess={onSuccess} onError={onFailure} />
     </div>
   );
